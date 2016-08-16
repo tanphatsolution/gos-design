@@ -1,0 +1,67 @@
+.glyphicon {
+    top: 2px !important;
+}
+
+.lineside {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    line-height: 0;
+    display: inline-block;
+}
+
+.lineside .text {
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #ffffff;
+}
+
+.pagination {
+    border-radius: 0;
+    margin: 0;
+}
+
+.pagination>li:first-child>a,
+.pagination>li:last-child>a {
+    border-radius: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+/* responsive --------------------------------------------------------------*/
+@media (max-width: 1024px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

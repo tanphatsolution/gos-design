@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>customer-chinhanh</title>
+
+    <!-- Bootstrap, Font-awesome -->
+    <link rel="stylesheet" href="bs337/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="fa463/css/font-awesome.min.css"/>
+    <!-- Google fonts -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400&subset=latin,vietnamese' rel='stylesheet' type='text/css'> -->
+    <!-- Customers -->
+    <link rel="stylesheet" href="assets/css/support.css"/>
+    <link rel="stylesheet" href="assets/css/common.css"/>
+    <link rel="stylesheet" href="assets/css/common-responsive.css"/>
+    <link rel="stylesheet" href="assets/css/customer.css"/>
+</head>
+
+<body>
+
+    <!-- #menuMobile -->
+    <div id="menuMobile">
+        <h4 class="title">HỆ THỐNG</h4>
+        <nav class="menu" references="menu-system"></nav>
+        <h4 class="title">Nghiệp vụ</h4>
+        <nav class="menu" references="menu-tasks"></nav>
+    </div>
+    <!-- /#menuMobile -->
+
+    <!-- #scrollTop -->
+    <div id="scrollTop">
+        <button class="fa fa-angle-up"></button>
+    </div>
+    <!-- /#scrollTop -->
+
+    <div id="wrapper">
+        <!-- header -->
+        <header>
+            <div class="container-fluid">
+                <!-- .logo -->
+                <div class="logo pull-left">
+                    <a href="#" title="">
+                        <img src="assets/img/logo.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <!-- .menu-toggle -->
+                <div id="menuMobileToggle" data-display="0" class="pull-right">
+                    <button class="fa fa-bars"></button>
+                </div>
+
+                <!-- .menu -->
+                <nav class="menu pull-right" references="menu-system">
+                    <ul>
+                        <li><a href="#">Quản lý kho <i class='glyphicon glyphicon-th'></i></a></li>
+                        <li><a href="#">Vật tư hàng hóa <i class='glyphicon glyphicon-shopping-cart'></i></a></li>
+                        <li><a href="#">Quản lý khách hàng <i class="glyphicon glyphicon-user"></i></a></li>
+                        <li><a href="#">Chi nhánh <i class="glyphicon glyphicon-object-align-left"></i></a></li>
+                        <li><a href="#">Garas <i class="glyphicon glyphicon-sound-dolby"></i></a></li>
+                        <li><a href="#">Thiết lập <span class="glyphicon glyphicon-cog"></span></a></li>
+                        <li>
+                            <a href="javascript::void(0)" class="user-setting">Trần Đức Liêm  <span class="caret"></span></a>
+                            <ul class="submenu">
+                                <li><a href="#"><i class="fa fa-unlock"> </i> Tài khoản</a></li>
+                                <li><a href="#"><i class="fa fa-wrench"> </i> Cài đặt</a></li>
+                                <li><a href="#"><i class="fa fa-sign-out"> </i> Đăng xuất</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- #tasks -->
+        <div id="tasks">
+            <div class="container-fluid">
+                <nav class="menu" references="menu-tasks">
+                    <ul>
+                        <li>
+                            <a href="#" class="active">
+                            <i class='glyphicon glyphicon-retweet'></i>
+                            Nghiệp vụ thường dùng
+                            <i class='glyphicon glyphicon-random'></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#"  title="Hóa đơn mua hàng">
+                            <i class="glyphicon glyphicon-ok-circle"></i>&nbsp; Hóa đơn mua hàng</a>
+                        </li>
+
+                        <li>
+                            <a href="#"  title="Hóa đơn mua hàng">
+                            <i class="glyphicon glyphicon-ok-circle"></i>&nbsp; Hóa đơn bán buôn</a>
+                        </li>
+
+                        <li>
+                            <a href="#"  title="Hóa đơn mua hàng">
+                            <i class="glyphicon glyphicon-ok-circle"></i>&nbsp; Hóa đơn bán lẻ</a>
+                        </li>
+
+                        <li>
+                            <a href="#"  title="Hóa đơn mua hàng">
+                            <i class="glyphicon glyphicon-ok-circle"></i>&nbsp; Chuyển kho nội bộ</a>
+                        </li>
+
+                        <li>
+                            <a href="#"  title="Hóa đơn mua hàng">
+                            <i class="glyphicon glyphicon-ok-circle"></i>&nbsp; Nhập hàng trả lại</a>
+                        </li>
+
+                        <li>
+                            <a href="#"  title="Hóa đơn mua hàng">
+                            <i class="glyphicon glyphicon-ok-circle"></i>&nbsp; Xuất hàng trả lại</a>
+                        </li>
+
+                        <li>
+                            <a href="#"  title="Hóa đơn mua hàng">
+                            <i class="glyphicon glyphicon-ok-circle"></i>&nbsp; Phiếu hủy hàng hóa</a>
+                        </li>
+
+                        <li>
+                            <a href="#"  title="Hóa đơn mua hàng">
+                            <i class="glyphicon glyphicon-ok-circle"></i>&nbsp; Quảng lý mã vạch</a>
+                        </li>
+
+                        <li>
+                            <a href="#"  title="Hóa đơn mua hàng">
+                            <i class="glyphicon glyphicon-ok-circle"></i>&nbsp; Quản lý chứng từ</a>
+                        </li>
+                        <li>
+                            <a href="#"  title="Hóa đơn mua hàng">
+                            <i class="glyphicon glyphicon-ok-circle"></i>&nbsp; Báo cáo & Thống kế</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- /#tasks -->
+
+        <!-- #content -->
+        <div id="content">
+            <div class="container-fluid">
+                <div id="customer">
+                    <div class="cus-heading">
+                        <h1>THÔNG TIN KHÁCH HÀNG</h1>
+                        <input type="text" class="input-sm" value="Nguyễn Xuân Quỳnh"/>
+                        <a href="javascript:;" class="btn btn-default btn-sm">Back</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="widget">
+                                <!-- widget-content -->
+                                <div class="widget-content">
+                                    <div class="cus-tabs">
+                                        <ul class="nav nav-tabs">
+                                            <li><a href="customer-info.html">Lịch sử mua hàng</a></li>
+                                            <li class="active"><a href="customer-chinhanh.html">Chi nhánh</a></li>
+                                            <li><a href="customer-nvkd.html">Nhân viên kinh doanh</a></li>
+                                            <li><a href="customer-congno.html">Công nợ</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="cus-data">
+                                        <div class="table-responsive">
+                                            <table style="width: 1100px;" class="table table-condensed table-default table-bordered table-hover">
+                                                <thead>
+                                                    <tr class="active">
+                                                        <th class="text-center">STT</th>
+                                                        <th class="text-center">Ngày mua</th>
+                                                        <th class="text-center">Mã hàng hóa</th>
+                                                        <th>Tên hàng hóa</th>
+                                                        <th class="text-center">Số lượng</th>
+                                                        <th>Đơn giá</th>
+                                                        <th>Thành tiền</th>
+                                                        <th>Mua tại kho</th>
+                                                        <th>Nhân viên kinh doanh</th>
+                                                        <th>Mã hóa đơn</th>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td class="text-center">11/11/2015</td>
+                                                        <td class="text-center">PRO001</td>
+                                                        <td>Laptop Dell 001</td>
+                                                        <td class="text-center">10</td>
+                                                        <td>1,000,000</td>
+                                                        <td>10,000,000</td>
+                                                        <td>...</td>
+                                                        <td>...</td>
+                                                        <td>BILL001</td>
+                                                    </tr>
+                                                    <script type="text/javascript">
+                                                        for (var i = 0; i < 20; i++) {
+                                                            document.write('<tr><td class="text-center">1</td><td class="text-center">11/11/2015</td><td class="text-center">PRO001</td><td>Laptop Dell 001</td><td class="text-center">10</td><td>1,000,000</td><td>10,000,000</td><td>...</td><td>...</td><td>BILL001</td></tr>');
+                                                        }
+                                                    </script>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- widget-footer -->
+                                <div class="widget-footer">
+                                    <div class="text-center">
+                                        <ul class="pagination">
+                                            <li class="active"><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li><a href="#">4</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="widget">
+                                <!-- widget-heading -->
+                                <div class="widget-heading">
+                                    <h3 class="title text-uppercase">Thông tin chung</h3>
+                                    <a href="javascript:;" class="toggle-content" references="#userInfo" display="1">
+                                        <i class="fa fa-angle-down"></i>
+                                    </a>
+                                </div>
+
+                                <!-- widget-content -->
+                                <div class="widget-content" id="userInfo">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <ul class="cus-info">
+                                                <li>
+                                                    <strong>Mã khách hàng: </strong>
+                                                    <div>KH123456789</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Tên khách hàng: </strong>
+                                                    <div>Nguyễn Xuân Quỳnh</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Loại khách hàng: </strong>
+                                                    <div>VIP</div>
+                                                </li>
+                                                <li>
+                                                    <strong>CMND: </strong>
+                                                    <div>145 771 835</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Công nợ hiện tại: </strong>
+                                                    <div>1.000.000</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Địa chỉ: </strong>
+                                                    <div>Xuân Quan - Văn Giang - Hưng Yên</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Email: </strong>
+                                                    <div>nguyenxuanquynh2210vghy@gmail.com</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Điện thoại: </strong>
+                                                    <div>0977.936.507</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Chi chú: </strong>
+                                                    <div>HTML forms are the integral part of the web pages and applications, but styling the form controls manually one by one with CSS are often boring and tedious. Bootstrap greatly simplifies the process of styling and alignment of form controls like labels, input fields, selectboxes, textareas, buttons, etc. through predefined set of classes.</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Ảnh đại diện: </strong>
+                                                    <div style="float: left; width: 100px; height: 100px;">
+                                                        <img src="assets/img/noavatar.png" alt="AVATAR" class="img-responsive"/>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="widget">
+                                <!-- widget-heading -->
+                                <div class="widget-heading">
+                                    <h3 class="title text-uppercase">Thông tin công ty</h3>
+                                    <a href="javascript:;" class="toggle-content" references="#companyInfo" display="1">
+                                        <i class="fa fa-angle-down"></i>
+                                    </a>
+                                </div>
+
+                                <!-- widget-content -->
+                                <div class="widget-content" id="companyInfo">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <ul class="cus-info">
+                                                <li>
+                                                    <strong>Tên công ty: </strong>
+                                                    <div>Công ty TNHH một hành viên XYZ</div>
+                                                </li>
+                                                <li>
+                                                    <strong>MST: </strong>
+                                                    <div>123 123 123 123 123</div>
+                                                </li>
+                                                <li>
+                                                    <strong>FAX: </strong>
+                                                    <div>0123 123 123</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Đi động: </strong>
+                                                    <div>123 123 123 </div>
+                                                </li>
+                                                <li>
+                                                    <strong>Máy bàn: </strong>
+                                                    <div>234 234 234</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Email: </strong>
+                                                    <div>tanphat@gmail.com</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Website: </strong>
+                                                    <div>http://tanphat.vn/</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Loại công ty: </strong>
+                                                    <div>Công ty cổ phần thương mại</div>
+                                                </li>
+                                                <li>
+                                                    <strong>Chi chú: </strong>
+                                                    <div>If you see the output of the above example in a laptop or desktop having screen or viewport width greater than or equal to 992px and less than 1200px you will find it has 4 rows where each row has 3 equal columns resulting in 3x4 grid layout.
+                                                    But just wait, the above example has a major alignment issue. If height of any column is taller than the other it doesn't clear properly and break the layout. To fix this, use the combination of a .clearfix class and the responsive utility classes.</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#content -->
+
+        <!-- footer -->
+        <footer>
+            <p class="text-center">Thời gian xử lý: 0.3234s</p>
+            <p class="text-center">&copy; tanphat.vn</p>
+        </footer>
+        <!-- /footer -->
+    </div>
+
+    <!-- jQuery, Bootstrap JavaScript -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="bs337/js/bootstrap.min.js"></script>
+    <!-- Customers -->
+    <script src="assets/js/defined.js"></script>
+    <script src="assets/js/common.js"></script>
+</body>
+</html>

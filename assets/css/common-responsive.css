@@ -1,0 +1,83 @@
+/* responsive --------------------------------------------------------------*/
+@media (max-width: 1024px) {
+
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container-fluid {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #sidebar .sb-content .form-group {
+        display: inline-block;
+        width: 49%;
+    }
+}
+
+@media (max-width: 767px) {
+    #menuMobile .menu ul.submenu {
+        text-indent: 7px;
+    }
+
+    #menuMobileToggle {
+        display: block;
+    }
+
+    /* header ---------------------------------------------------------------*/
+    header .menu {
+        display: none;
+    }
+
+    /* #tasks ---------------------------------------------------------------*/
+    #tasks {
+        display: none;
+    }
+
+    /* #content .widget -----------------------------------------------------*/
+    .widget-tools {
+        float: left;
+        width: 100%;
+    }
+
+    .widget-tools .tool {
+        float: left;
+        width: 33%;
+        margin-left: 0.3%;
+        margin-bottom: 2px;
+    }
+
+    .widget-tools .btn,
+    .widget-tools .btn-group {
+        width: 100%;
+    }
+
+    .widget-tools .dropdown-menu {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .widget-tools .tool {
+        width: 49.5%;
+        margin-left: 0.5%;
+    }
+
+    .widget-tools .btn,
+    .widget-tools .btn-group {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+
+}

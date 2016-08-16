@@ -1,0 +1,58 @@
+#newProvider {
+    margin-top: 35px;
+}
+
+#newProvider .modal-dialog {
+    width: 65%;
+}
+
+#newProvider .modal-body form input,
+#newProvider .modal-body form select {
+    margin-bottom: 3px;
+}
+
+#newProvider .modal-body form div.contacter {
+    padding: 15px;
+    border: 1px solid #dddddd;
+}
+
+#newProvider .modal-body form div.contacter > ul > li {
+    width: 32.9%;
+    display: inline-block;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #newProvider .modal-body form div.contacter > ul > li {
+        width: 32.7%;
+    }
+}
+
+@media (max-width: 767px) {
+    #newProvider .modal-dialog {
+        width: 95%;
+    }
+
+    #newProvider .modal-body form div.contacter > ul > li {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

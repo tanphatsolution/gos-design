@@ -1,0 +1,366 @@
+body {
+    background: #f0f0f0;
+    font-family: tahoma;
+    color: #303030;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.glyphicon {
+    top: 2px !important;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+a.user-setting {
+    border-radius: 3px;
+    font-weight: 600 !important;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#scrollTop {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+}
+
+#scrollTop button {
+    width: 40px;
+    height: 40px;
+    display: block;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 600;
+    border-radius: 50%;
+    background: #181717;
+    opacity: 0.75;
+    line-height: 30px;
+    text-align: center;
+    outline: none !important;
+    border: 0;
+}
+
+#scrollTop button:hover {
+    opacity: 1;
+}
+
+#menuMobile {
+    width: 260px;
+    background: #1b4057;
+    color: #ffffff;
+    opacity: 0.9;
+    position: fixed;
+    left: -260px;
+    overflow-y: scroll;
+    z-index: 99999;
+}
+
+#menuMobile .title {
+    margin: 0;
+    padding: 10px 0 10px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#menuMobile .menu ul a {
+    width: 100%;
+    height: 35px;
+    padding-left: 25px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 500;
+    background: #1b4057;
+    display: block;
+}
+
+#menuMobile .menu ul > li a:hover {
+    background: #38b8e6;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menuMobileToggle {
+    width: 40px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: #1a9dcc;
+    display: none;
+}
+
+#menuMobileToggle button {
+    padding: 5px 7px;
+    color: #1a9dcc;
+    background: none;
+    border: 0;
+    outline: none !important;
+}
+
+#menuMobileToggle button:hover {
+    background: #1a9dcc;
+    color: #ffffff;
+}
+
+/* header ------------------------------------------------------------------*/
+header {
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.123);
+}
+
+header .logo img {
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+header .menu {
+    height: 34px;
+    margin-top: 13px;
+}
+
+header .menu ul > li {
+    float: left;
+    margin-left: 3px;
+    position: relative;
+}
+
+header .menu > ul > li > a {
+    float: left;
+    height: 34px;
+    padding: 0 10px;
+    display: block;
+    line-height: 34px;
+    color: #010101;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header .menu > ul > li > a.user-setting {
+    color: #ff7920;
+}
+
+header .menu > ul > li.active > a,
+header .menu > ul > li > a:hover {
+    text-decoration: none;
+    color: #ff7920;
+    border-radius: 3px;
+}
+
+header .menu ul.submenu {
+    margin-top: 20px;
+    width: 165px;
+    position: absolute;
+    top: 34px;
+    right: 0;
+    display: none;
+    z-index: 9999;
+    background: #ffffff;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+    opacity: 0;
+}
+
+header .menu ul.submenu > li {
+    width: 100%;
+    margin-left: 0;
+    border-bottom: 1px dashed #cccccc;
+}
+
+header .menu ul.submenu > li:last-child {
+    border-bottom: 0;
+}
+
+header .menu ul.submenu > li > a {
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    display: block;
+    line-height: 40px;
+    font-size: 13px;
+    color: #010101;
+}
+
+header .menu ul.submenu > li > a:hover {
+    color: #ff7920;
+}
+
+/* #tasks ------------------------------------------------------------------*/
+#tasks {
+    width: 100%;
+    background: #1B4057;
+}
+
+#tasks .menu ul li {
+    margin: 0;
+    display: inline-block;
+}
+
+#tasks .menu ul li a {
+    padding: 10px 10px;
+    color: #ffffff;
+    display: block;
+}
+
+#tasks .menu ul li a:hover {
+    background: #337ab7;
+    text-decoration: none;
+}
+
+#tasks .menu ul li a.active {
+    background: #1a9dcc;
+    text-decoration: none;
+}
+
+#tasks .menu ul li a.active {
+    background: #1a9dcc;
+    text-decoration: none;
+}
+
+/* #content ----------------------------------------------------------------*/
+#content {
+    margin-top: 30px;
+    min-height: 500px;
+}
+
+.widget {
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+
+.widget-heading {
+    background: #1a9dcc;
+    padding: 10px;
+    border-bottom: 1px solid #bbbbbb;
+    position: relative;
+}
+
+.widget-heading .toggle-content {
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 7%;
+    right: 10px;
+    padding: 0 7px;
+}
+
+.widget-heading .title {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.widget-content {
+    padding: 10px 10px 0 10px;
+}
+
+.widget-tools {
+    padding: 10px;
+}
+
+.widget-tools .tool {
+    display: inline-block;
+}
+
+.widget-tools .btn {
+    background: #5dba00;
+    color: #ffffff;
+    border-radius: 0;
+}
+
+.widget-tools .dropdown-menu {
+    margin-top: 2px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background: #5dba00;
+    color: #ffffff;
+    left: auto;
+    right: 0;
+}
+
+.widget-tools .dropdown-menu a {
+    color: #ffffff;
+}
+
+.widget-tools .dropdown-menu a:hover {
+    background: #509d02;
+    color: #ffffff;
+}
+
+.widget-footer {
+    padding: 0 10px 10px 10px;
+}
+
+/* #sidebar ----------------------------------------------------------------*/
+#sidebar {
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+#sidebar .sb-heading {
+    background: #1a9dcc;
+    padding: 10px;
+    border-bottom: 1px solid #bbbbbb;
+    position: relative;
+}
+
+#sidebar .sb-heading .toggle-content {
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 7%;
+    right: 10px;
+    padding: 0 7px;
+}
+
+#sidebar .sb-heading .title {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+#sidebar .sb-content {
+    padding: 10px;
+}
+
+#sidebar .sb-content .form-group label {
+    margin-bottom: 15px;
+}
+
+#sidebar .sb-content .form-group .progress {
+    height: 10px;
+}
+
+/* footer ------------------------------------------------------------------*/
+footer {
+    margin-top: 30px;
+    padding: 20px 0;
+    background: #1a9dcc;
+    /*background: #1B4057;*/
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff;
+}

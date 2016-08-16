@@ -1,0 +1,26 @@
+#newProduct {
+    margin-top: 35px;
+}
+
+#newProduct .modal-dialog {
+    width: 60%;
+}
+
+#newProduct .modal-body form input,
+#newProduct .modal-body form select {
+    margin-bottom: 3px;
+}
+
+@media (max-width: 767px) {
+    #newProduct .modal-dialog {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

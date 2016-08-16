@@ -1,0 +1,166 @@
+/* #customer ----------------------------------------------------------------*/
+#customer {
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+    padding: 0 10px 10px 10px;
+}
+
+#customer .widget {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    /*box-shadow: none;*/
+}
+
+.cus-heading {
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.cus-heading h1 {
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.cus-heading input {
+    width: 200px;
+    border: 1px solid #bbbbbb;
+    outline-color: #1a9dcc;
+    font-size: 14px;
+    border-radius: 0;
+}
+
+.cus-heading a {
+    float: right;
+    margin-top: 7px;
+}
+
+.cus-tabs {
+    margin-bottom: 20px;
+}
+
+.cus-tabs .nav-tabs li a {
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.cus-info > li {
+    float: left;
+    width: 100%;
+    padding: 5px 3px;
+    border: 1px dashed #cccccc;
+    margin-bottom: 5px;
+}
+
+.cus-info > li > strong {
+    float: left;
+    width: 32%;
+    display: block;
+}
+
+.cus-info > li > div {
+    float: left;
+    width: 66%;
+}
+
+.cus-form .form-group input,
+.cus-form .form-group select {
+    margin: 3px 0;
+}
+
+.cus-modal .modal-dialog {
+    width: 80%;
+}
+
+.cus-modal .modal-dialog .modal-body form {
+    margin-bottom: 15px;
+}
+
+.cus-modal .modal-dialog .modal-body form input {
+    margin-bottom: 3px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #customer {
+        padding-right: 10px;
+    }
+
+    #customer .widget {
+        margin-bottom: none;
+        box-shadow: none;
+    }
+
+    .cus-info > li > strong {
+        width: 20%;
+    }
+
+    .cus-info > li > div {
+        width: 78%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    #customer {
+        padding-right: 0;
+        padding: 7px;
+    }
+
+    #customer .widget {
+        margin-bottom: 0;
+        box-shadow: none;
+    }
+
+    .cus-heading {
+        height: 125px;
+        text-align: center;
+    }
+
+    .cus-heading input {
+        width: 100%;
+        text-align: center;
+        margin-top: 3px;
+    }
+
+    .cus-heading a {
+        float: none;
+        margin-top: 5px;
+    }
+
+    .cus-info > li > div {
+        width: 100%;
+    }
+
+    .cus-modal .modal-dialog {
+        width: 95%;
+    }
+
+    .cus-modal .modal-dialog .modal-body form {
+        text-align: center;
+    }
+
+    .cus-form .form-group {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .cus-info > li > strong {
+        float: none;
+    }
+
+    .cus-tabs > ul > li {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+
+}
